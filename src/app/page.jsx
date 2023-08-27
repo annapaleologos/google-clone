@@ -1,6 +1,9 @@
+import HomeHeader from "@/components/HomeHeader";
 
 export default function Home() {
   return (
-    <div className="text-yellow-800">Home</div>
+    <>
+    <HomeHeader />    
+    </>
   )
 }
